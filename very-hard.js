@@ -62,7 +62,7 @@ function Programmer(name, job, age, languages) {
     this.listLanguage = function(){
         console.log(languages)     
     }
-    this.howOld = () =>console.log(this.age);  //ES6 logging the age
+    this.howOld = () =>console.log(this.age);  //Bonus ES6 logging the age
 }
 // 8
 const anthony = new Programmer("Anthony", "Apprentice", 23, ["JS, CSS, HTML"]); //test1
